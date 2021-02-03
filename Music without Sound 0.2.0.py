@@ -1,59 +1,3 @@
-'''TO DO List'''
-
-## General QOL Improvements
-    # Chords with Flats or Sharps (e.g. C11b9 or C11#7)
-    
-## Chord Progression
-    # Toggle for different Notations
-        # Figured Bass, Common Chord Notation
-
-## Sight Reading Buddy
-        # GUI Area -- COMPLETE
-        # Proof of Concept -- COMPLETE
-        # Import images for each instance of notes
-            # Or create dynamic system that creates images given a note(s)
-
-## Chord Identifier
-    # GUI Area -- COMPLETE
-    # Chords up to 13 (e.g. G13) -- COMPLETE (As far as they appear in scales)
-    # Inversions -- IN PROGRESS up to 7th chords
-    # 'Add' Chords (e.g. CAdd9) -- IN PROGRESS (Built:Add9, mAdd9, Add2, mAdd2)
-    # Allow for MIDI entry into text field -- COMPLETE
-        # Interpret key positions instead of forcing user to enter one note at a time
-    # Identify all instances/contexts where a chord appears -- COMPLETE
-
-## Chord Generation
-    # Given a cadence (e.g., I, V, IV), generate possible chords
-    # Need options for which chords to display
-        # Only for a certain key? All keys?
-
-## Sound Generation
-    # Identify method that:
-        # sounds pleasant
-        # is flexible enought to account for future instrument changes 
-        # can play multiples notes at once for a chord
-
-## Sound Capture
-    # Identify method that:
-        # Can identify MIDI data via USB interface -- COMPLETE
-        # Can interpret audio from an existing file
-
-## Spectrum Analyzer
-    # Identify method that:
-        # Takes inputs from the sound capture method
-        # scales sin wave of captured sounds
-            # Needs to be as low-latency and hi-fidelity as possible
-        # Conducts note/chord interpretation for single instruments/entire pieces
-
-## Machine Learning-Driven Audio Creation
-    # Create Music Artifically Via:
-        # Take analyzed/interpreted pieces of music as test data
-        # Find suitable rating system
-        # Create neural network to determine one of many possibilities:
-            # Given a note or series of notes, what should come next?
-            # Given a key signature, tempo, etc., produce a piece start to finish
-
-
 from __future__ import division
 from tkinter import *
 from tkinter import ttk
@@ -73,6 +17,7 @@ except ImportError: # Python 3
 
 
 ## Init pygame and assign a device
+
 pygame.midi.init()
 print("\nInput Devices:")
 dev_input_count = 0
