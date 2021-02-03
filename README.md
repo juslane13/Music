@@ -10,16 +10,16 @@ GUI to help with learning music theory or chord identification
 - Common Scale Reference
     - Select a root note, scale type, and which types of chords to display
     - Builds chord progressions with roman numeral analysis
-        - e.g., select Root Note: 'C', select Scale Type: 'Ionian/Major', select Chord Type: 'Seventh' for the following output:
+        - e.g., select Root Note: 'C', select Scale Type: 'Ionian/Major', select Chord Type: 'Triad' for the following output:
             - C D E F G A B C
           
-            - I: C-E-G-B
-            - ii: D-F-A-C
-            - iii: E-G-B-D
-            - IV: F-A-C-E
-            - V: G-B-D-F
-            - vi: A-C-E-G
-            - viio: B-D-F-A
+            - I: C-E-G
+            - ii: D-F-A
+            - iii: E-G-B
+            - IV: F-A-C
+            - V: G-B-D
+            - vi: A-C-E
+            - viio: B-D-F
             
  - MIDI Input:
     - Plug in any MIDI instrument and use it in the Chord ID tab instead of typing with your keyboard.
