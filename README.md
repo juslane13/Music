@@ -20,6 +20,11 @@ GUI to help with learning music theory or chord identification
             - V: G-B-D-F
             - vi: A-C-E-G
             - viio: B-D-F-A
+            
+ - MIDI Input:
+    - Plug in any MIDI instrument and use it in the Chord ID tab instead of typing with your keyboard.
+    - Interprets chords on the fly; stops reading inputs after a 2 second delay, after which any new inputs will clear the entry field
+        - This allows for several chords to be analyzed much more quickly and without the need to take the hands off of the instrument to click buttons
           
 
 The programming is meant to be flexible enough to allow for future improvements (listed in the wiki under TODO). The least flexible code relates to chord identification.
